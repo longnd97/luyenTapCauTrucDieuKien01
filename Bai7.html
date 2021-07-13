@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soPhutGoi = parseInt(prompt("Nhập số phút gọi"));
+    let cuocDienThoai;
+    if (soPhutGoi < 100) {
+        cuocDienThoai = soPhutGoi * 2000;
+    } else if (soPhutGoi < 200) {
+        cuocDienThoai = soPhutGoi * 3000;
+    } else {
+        cuocDienThoai = soPhutGoi * 4000;
+    }
+    alert("Cước điện thoại của gia đình là: " + cuocDienThoai);
+</script>
+</body>
+</html>
